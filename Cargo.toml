@@ -1,0 +1,11 @@
+[package]
+name = "admm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "admm"
+path = "src/lib.rs"
+
+[dependencies]
+nalgebra = "0.32"
